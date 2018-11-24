@@ -1,0 +1,52 @@
+Configuration	UART_ECHO
+STM32CubeMX 	4.27.0
+Date	11/18/2018
+MCU	STM32F303VCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PC5
+USART1	Asynchronous	USART1_TX	PC4
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+33	PC4	USART1_TX	UART1_TX_PC4
+34	PC5	USART1_RX	UART1_RX_PC5
+39	PE8	GPIO_Output	LD4_PE8
+40	PE9	GPIO_Output	LD3_PE9
+41	PE10	GPIO_Output	LD5_PE10
+42	PE11	GPIO_Output	LD7_PE11
+43	PE12	GPIO_Output	LD9_PE12
+44	PE13	GPIO_Output	LD10_PE13
+45	PE14	GPIO_Output	LD8_PE14
+46	PE15	GPIO_Output	LD6_PE15
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : UART_ECHO
+Project Folder : C:\Users\kb3gtn\workspace-stm32\UART_ECHO
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F3 V1.10.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : Yes
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
